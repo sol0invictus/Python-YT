@@ -4,15 +4,15 @@ def square(x):
     return x*x
     
 
-class TestStringMethods(unittest.TestCase):
+class TestSquare(unittest.TestCase):
       
     def setUp(self):
         self.number = 4
   
-    def test_strings_a(self):
+    def test1(self):
         self.assertEqual( square(self.number), 16)
   
-    def test_upper(self):        
+    def test2(self):        
         self.assertEqual(square(3),8 )
   
 
